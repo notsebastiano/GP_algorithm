@@ -7,4 +7,7 @@ Also, correlation dimension is easy to calculate (but computationally expensive)
 more on the Grassberger-Procaccia algorithm: http://www.scholarpedia.org/article/Grassberger-Procaccia_algorithm
 
 # GP.py
-This code takes in input a timeseries of scalar values and the embedding dimension + time delay necessary to perform a time-delay embedding in phase space to reconstruct the attractor
+
+This code takes in input a timeseries of scalar values and the embedding dimension + time delay necessary to perform a time-delay embedding in phase space to reconstruct the attractor.
+
+GP algorithm and utility functions (such as delay embedding) to calculate the Correlation dimension from points reconstructed in phase space
