@@ -5,3 +5,6 @@ Correlation dimension is a fractal dimension (such as Box-counting dimension or 
 
 Also, correlation dimension is easy to calculate (but computationally expensive).
 more on the Grassberger-Procaccia algorithm: http://www.scholarpedia.org/article/Grassberger-Procaccia_algorithm
+
+# GP.py
+This code takes in input a timeseries of scalar values and the embedding dimension + time delay necessary to perform a time-delay embedding in phase space to reconstruct the attractor
