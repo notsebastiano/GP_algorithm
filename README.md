@@ -1,3 +1,6 @@
+# Alert
+While this implementation was successfully tested with Lorentz and Henon attractors, with High dimensional attractors coming from a stochastic-deterministic hybrid dynamics (with additive or even multiplicative noise) the Correlation sum in log-log shows two different scaling regions. Thus results can not be trusted.
+
 # GP_algorithm
 Implementation of the Grassberger-Procaccia algorithm to estimate the correlation dimension of a set.
 
