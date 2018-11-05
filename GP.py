@@ -85,7 +85,7 @@ def grassberg_procaccia(timeseries,emb_dim,time_delay,plot = None):
 	#hence the slope in the scaling region should be the maximum gradient ( in this case
 	#is taken as the mean of the last five maximum gradients as they are calculated for every point )
 
-	gradients = np.gradient(log2(C_r),log2(r_vals))
+	gradients = np.gradient(np.log2(C_r),np.log2(r_vals))
 	gradients.sort()
 	D = np.mean(gradients[-5:])
 
