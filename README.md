@@ -4,9 +4,9 @@ Implementation of the Grassberger-Procaccia algorithm to estimate the correlatio
 
 Correlation dimension is a fractal dimension (such as Box-counting dimension or Hausdorff dimension) and it is characteristic of the set of points. If an attractor in phase space is being studied, once the attractor is completely unfolded in m dimensions, correlation dimension becomes an invariant and further embeddings in more dimensions do not influence its value, thus remaining constant.
 
-# Notebook implementation
+# Test Example
 
-Test of the `grassberg_procaccia` function that implements the G-P algorithm, to estimate the correlation dimension of a set of points in a m dimensional space. This code takes in input a timeseries of scalar values and the embedding dimension (m) + time delay (tau) necessary to perform a time-delay embedding in phase space to reconstruct the attractor. See: https://en.wikipedia.org/wiki/Takens%27s_theorem for more information regarding the phase space reconstruction.
+Test of the `grassberg_procaccia` function (found in `GP_algorithm.py` that implements the G-P algorithm, to estimate the correlation dimension of a set of points in a m dimensional space. This code takes in input a timeseries of scalar values and the embedding dimension (m) + time delay (tau) necessary to perform a time-delay embedding in phase space to reconstruct the attractor. See: https://en.wikipedia.org/wiki/Takens%27s_theorem for more information regarding the phase space reconstruction.
 
 Function `grassberg_procaccia` is the main reference for the implementation. Some notes:
 
