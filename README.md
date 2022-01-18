@@ -6,7 +6,7 @@ Correlation dimension is a fractal dimension (such as Box-counting dimension or 
 
 # Test Example
 
-Test of the `grassberg_procaccia` function (found in `GP_algorithm.py` that implements the G-P algorithm, to estimate the correlation dimension of a set of points in a m dimensional space. This code takes in input a timeseries of scalar values and the embedding dimension (m) + time delay (tau) necessary to perform a time-delay embedding in phase space to reconstruct the attractor. See: https://en.wikipedia.org/wiki/Takens%27s_theorem for more information regarding the phase space reconstruction.
+Test of the `grassberg_procaccia` function (found in `GP_algorithm.py`) that implements the G-P algorithm, to estimate the correlation dimension of a set of points in a m dimensional space. This code takes in input a timeseries of scalar values and the embedding dimension (m) + time delay (tau) necessary to perform a time-delay embedding in phase space to reconstruct the attractor. See: https://en.wikipedia.org/wiki/Takens%27s_theorem for more information regarding the phase space reconstruction.
 
 Function `grassberg_procaccia` is the main reference for the implementation. Some notes:
 
